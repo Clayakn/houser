@@ -45,7 +45,7 @@ class Dashboard extends Component {
         return (
             <div>
                 <h1>Dashboard</h1>
-                <Link to="/Wizard"><button> Add New Property</button></Link>
+                <Link to='/Wizard/Step1'><button> Add New Property</button></Link>
                 <hr />
                 <h3> Home Listings </h3>
                 {this.state.houses.map((house,i) => <div key={i}><House {...house} deleteHouse={this.deleteHouse}/></div>)}
