@@ -1,0 +1,14 @@
+.container {
+    background-color: #3B5249;
+}
+
+.houserTitle{
+    color: white;
+    font-size: 20px;
+}
+
+.label {
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+}
